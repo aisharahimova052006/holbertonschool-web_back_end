@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+"""find"""
+
+from pymongo import MongoClient
+
+def schools_by_topic(mongo_collection, topic):
+    """find"""
+    return mongo_collection.find({"topics": topic})
+
