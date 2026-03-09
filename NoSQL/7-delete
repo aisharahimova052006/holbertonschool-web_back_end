@@ -1,2 +1,4 @@
-// delete documents with name="Holberton school"
-db.school.remove({ name: "Holberton school" })
+//database delete
+db.school.remove(
+{name:"Holberton school"}
+);
